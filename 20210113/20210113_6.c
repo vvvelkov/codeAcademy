@@ -10,7 +10,7 @@ printf("%d\n",c);
 unsigned int e = 4294967292;
 printf("%d\n",e);
 long long f = -9000000000000775845;
-printf("%d\n",f);*/
+printf("%x\n",f);
 
     return 0;
 }
