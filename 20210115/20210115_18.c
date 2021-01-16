@@ -13,5 +13,6 @@ int main(){
   float moneyCar = carValue / caravans;
   printf("Duljite ni %f lv\n",moneyCar);
   printf("Jelaete li oshte nalichni produkti?"); 
+  scanf("%d",&res);
     return 0;
 }
