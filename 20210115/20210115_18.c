@@ -12,7 +12,7 @@ int main(){
   scanf("%d",&res); // choose 1
   float moneyCar = carValue / caravans;
   printf("Duljite ni %f lv\n",moneyCar);
-  printf("Jelaete li oshte nalichni produkti?"); 
+  printf("Jelaete li oshte nalichni produkti?\n"); 
   scanf("%d",&res);
     return 0;
 }
