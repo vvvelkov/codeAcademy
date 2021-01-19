@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){
+int main(void){
 char c = (255 + 10);
 printf("%d\n",c); // stack overflow == 9
 
