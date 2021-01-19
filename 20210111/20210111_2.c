@@ -2,7 +2,7 @@
 
 int vzemiBitNa(int iNum,int iPosition);
 
-int main(){
+int main(void){
    int iNum = 3;
    printf("%d",vzemiBitNa(iNum,1));
 
