@@ -1,18 +1,21 @@
 #include <stdio.h>
 
-const double C_PI = 3.1415;
-double sOfCircle();
+const float C_PI = 3.14159;
+float sOfCircle(float R);
 
 int main(void) {
-    double r1 = 1;
+    float r1 = 1;
     printf("%f\n",sOfCircle(r1));
-    double r2 = 1.5;
+
+    float r2 = 1.5;
     printf("%f\n",sOfCircle(r2));
-    double r3 = 13;
+    
+    float r3 = 13;
     printf("%f\n",sOfCircle(r3));
+    
 return 0;
 }
 
-double sOfCircle(double R){
+float sOfCircle(float R){
  return C_PI * R * R;
 }
