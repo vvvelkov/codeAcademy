@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){
+int main(void){
 double a = 4.9876543; 
 printf("%.7f\n",a);
 long double b = 7.123456789012345678890; 
