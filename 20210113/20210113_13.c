@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){
+int main(void){
   char a = 'a';
   printf("%c", a);
   printf("--> 1 byte\n");
