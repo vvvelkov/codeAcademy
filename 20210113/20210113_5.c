@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){
+int main(void){
 int iValue = 100; 
 printf("\n%d\n",sizeof(iValue)); // 4
 float fValue = 23.0;
