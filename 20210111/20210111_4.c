@@ -2,7 +2,7 @@
 
 int vdigniBitNa(int iNum,int iPos);
 
-int main(){
+int main(void){
    int iNum = 5;// a = 0000 0101
    printf("%d", vdigniBitNa(iNum,1));
 
