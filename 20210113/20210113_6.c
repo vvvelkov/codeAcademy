@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){
+int main(void){
 char a = -127; 
 printf("%d\n",a);
 unsigned char b = 255; 
