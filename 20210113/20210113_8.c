@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){
+int main(void){
 char x = 8;
 x = x - 2; // 6
 x = x + 6; // 12
