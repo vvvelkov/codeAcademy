@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){
+int main(void){
 short int a = 24212; 
 printf("%d\n",a);
 int b = -1357674; 
