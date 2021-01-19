@@ -2,7 +2,7 @@
 
 int addDigit(int a, int b);
 
-int main(){
+int main(void){
     int a=3, b=4;
     printf("%d",addDigit(a,b));
     
