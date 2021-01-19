@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){
+int main(void){
   int caravans = 3;
   float carValue = 90; // lv
   int campers = 3;
