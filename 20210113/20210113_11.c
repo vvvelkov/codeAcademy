@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){
+int main(void){
   double fTomatoPrice = 4.5; // za kg
   printf("Hello, welcome to our shop!"); 
   printf("Today we offer - fresh tomatoes flour,");
