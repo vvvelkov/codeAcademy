@@ -1,15 +1,15 @@
 #include <stdio.h>
 
-const double C_PI = 3.1415;
-double sOfElipse();
+const float C_PI = 3.1415;
+float sOfElipse();
 
 int main(void) {
-    double A = 5;
-    double B = 4;
+    float A = 5;
+    float B = 4;
     printf("%f\n", sOfElipse(A,B));
 return 0;
 }
 
-double sOfElipse(double A, double B){
+float sOfElipse(float A, float B){
  return C_PI * A * B;
 }
