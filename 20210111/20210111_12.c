@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){
+int main(void){
    int iTemp = 1,iTemp1 = 1,iTemp2 = 1,iNum = 7;
    // 0000 0111 --> 0100 1111  
    iTemp = iTemp << 1;   //  0000 0010
@@ -11,5 +11,4 @@ int main(){
    printf("%d", iNum);
 
     return 0;
-
     }
