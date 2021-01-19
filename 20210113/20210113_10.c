@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){
+int main(void){
   char caravans = 3;
   char carValue = 90; // lv
   char campers = 3;
