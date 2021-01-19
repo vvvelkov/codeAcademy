@@ -2,7 +2,7 @@
 
 int obarniBitNa(int iNum,int iPos);
 
-int main(){
+int main(void){
    int iNum = 15;// a = 0000 1111
    printf("%d", obarniBitNa(iNum,3));
 
