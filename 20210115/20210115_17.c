@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 const float C_PI = 3.1415;
-float sOfElipse();
+float sOfElipse(float A, float B);
 
 int main(void) {
     float A = 5;
