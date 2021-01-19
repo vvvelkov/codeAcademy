@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){
+int main(void){
    int iTemp = 1,iTemp1 = 1,iTemp2 = 1, iTemp3 = 1,iTemp4 = 1,iNum = 255;
    iTemp = iTemp << 3;   //  0000 1000
    iTemp1 = iTemp1 << 4; //  0001 0000
