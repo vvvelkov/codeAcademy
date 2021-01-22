@@ -12,8 +12,10 @@ void itoa(int n, char s[]);
 
 int main(void){
     char s[1000];
-    itoa(13,s);
-    
+    unsigned n;
+    printf("Give it a shot: ");
+    scanf("%u", &n);
+    itoa(n,s);
     return 0;
 }
 
